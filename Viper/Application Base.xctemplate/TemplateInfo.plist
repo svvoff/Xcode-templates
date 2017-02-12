@@ -66,6 +66,11 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+		</dict>
 		<key>Info.plist:PackageType</key>
 		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
 &lt;string&gt;APPL&lt;/string&gt;
