@@ -9,7 +9,7 @@
 	<key>Ancestors</key>
 	<array>
 		<string>ru.svvoff.viper.storyboardApplication</string>
-		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>ru.svvoff.viper.coreDataCocoaTouchApplication</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
