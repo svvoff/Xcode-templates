@@ -292,7 +292,7 @@
 		<string>Info.plist:iPhone</string>
 		<string>Info.plist:UIRequiredDeviceCapabilities:base</string>
 		<string>Info.plist:LaunchScreen</string>
-		<string>Assets.xcassets</string>
+		<string>Resources/Images/Assets.xcassets</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
 	</array>
 	<key>Definitions</key>
