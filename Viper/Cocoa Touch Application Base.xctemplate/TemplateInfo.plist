@@ -59,6 +59,11 @@
 					<dict>
 						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
+							<key>Group</key>
+							<array>
+								<string>Resources</string>
+								<string>Images</string>
+							</array>
 							<key>Path</key>
 							<string>Images-iPhone.xcassets</string>
 							<key>SortOrder</key>
@@ -84,6 +89,11 @@
 					<dict>
 						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
+							<key>Group</key>
+							<array>
+								<string>Resources</string>
+								<string>Images</string>
+							</array>
 							<key>Path</key>
 							<string>Images-iPad.xcassets</string>
 							<key>SortOrder</key>
@@ -110,10 +120,15 @@
 					<dict>
 						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
-							<key>Path</key>
-							<string>Images-Universal.xcassets</string>
+							<key>Group</key>
+							<array>
+								<string>Resources</string>
+								<string>Images</string>
+							</array>
 							<key>SortOrder</key>
 							<integer>100</integer>
+							<key>Path</key>
+							<string>Images-Universal.xcassets</string>
 						</dict>
 					</dict>
 				</dict>
@@ -294,9 +309,25 @@
 		<string>Info.plist:LaunchScreen</string>
 		<string>Resources/Images/Assets.xcassets</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
+		<string>Resources/Plists</string>
+		<string>Resources/Strings</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>Resources/Strings</key>
+		<dict>
+			<key>Path</key>
+			<string>empty</string>
+			<key>Group</key>
+			<string>Resources</string>
+		</dict>
+		<key>Resources/Plists</key>
+		<dict>
+			<key>Path</key>
+			<string>empty</string>
+			<key>Group</key>
+			<string>Resources</string>
+		</dict>
 		<key>Info.plist:iPhone</key>
 		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;
