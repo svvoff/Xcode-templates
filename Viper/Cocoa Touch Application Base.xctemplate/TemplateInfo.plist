@@ -57,7 +57,7 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>Assets.xcassets</key>
+						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
 							<key>Path</key>
 							<string>Images-iPhone.xcassets</string>
@@ -82,7 +82,7 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>Assets.xcassets</key>
+						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
 							<key>Path</key>
 							<string>Images-iPad.xcassets</string>
@@ -108,7 +108,7 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>Assets.xcassets</key>
+						<key>Resources/Images/Assets.xcassets</key>
 						<dict>
 							<key>Path</key>
 							<string>Images-Universal.xcassets</string>
