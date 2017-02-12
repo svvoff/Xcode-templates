@@ -43,12 +43,12 @@
 				<dict>
 					<key>Definitions</key>
 					<dict>
-						<key>main.swift</key>
+						<key>Supporting Files/main.swift</key>
 						<dict>
 							<key>Group</key>
 							<string>Supporting Files</string>
 						</dict>
-						<key>main.swift:main</key>
+						<key>Supporting Files/main.swift:main</key>
 						<dict>
 							<key>Beginning</key>
 							<string></string>
@@ -70,12 +70,12 @@
 		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
 &lt;string&gt;APPL&lt;/string&gt;
 </string>
-		<key>main.m</key>
+		<key>Supporting Files/main.m</key>
 		<dict>
 			<key>Group</key>
 			<string>Supporting Files</string>
 		</dict>
-		<key>main.m:main</key>
+		<key>Supporting Files/main.m:main</key>
 		<dict>
 			<key>Beginning</key>
 			<string>int main(int argc, const char * argv[]) {</string>

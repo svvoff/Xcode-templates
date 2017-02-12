@@ -201,10 +201,10 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>main.m:comments</string>
-						<string>main.m:imports:importCocoa</string>
-						<string>main.m:imports:importHeader:AppDelegate.h</string>
-						<string>main.m:main:UIApplicationMain</string>
+						<string>Supporting Files/main.m:comments</string>
+						<string>Supporting Files/main.m:imports:importCocoa</string>
+						<string>Supporting Files/main.m:imports:importHeader:AppDelegate.h</string>
+						<string>Supporting Files/main.m:main:UIApplicationMain</string>
 						<string>AppDelegate.h:comments</string>
 						<string>AppDelegate.h:imports:importCocoa</string>
 						<string>AppDelegate.h:interface(AppDelegate : UIResponder &lt;UIApplicationDelegate&gt;)</string>
@@ -229,7 +229,7 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>main.m:main</key>
+						<key>Supporting Files/main.m:main</key>
 						<dict>
 							<key>Beginning</key>
 							<string>int main(int argc, char * argv[]) {</string>
@@ -238,7 +238,7 @@
 							<key>Indent</key>
 							<integer>1</integer>
 						</dict>
-						<key>main.m:main:UIApplicationMain</key>
+						<key>Supporting Files/main.m:main:UIApplicationMain</key>
 						<string>@autoreleasepool {
     return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
 }
