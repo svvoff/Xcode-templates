@@ -53,26 +53,26 @@
 						</dict>
 						<key>Nodes</key>
 						<array>
-							<string>AppDelegate.h:imports:importFramework:CoreData</string>
-							<string>AppDelegate.h:interface:coreData</string>
-							<string>AppDelegate.m:implementation:methods:applicationWillTerminate:save</string>
-							<string>AppDelegate.m:implementation:coreData</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:imports:importFramework:CoreData</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:interface:coreData</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillTerminate:save</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:coreData</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
 							<key>*:importCoreData</key>
 							<string>#import &lt;CoreData/CoreData.h&gt;
 </string>
-							<key>AppDelegate.h:interface:coreData</key>
+							<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:interface:coreData</key>
 							<string>@property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;
 </string>
-							<key>AppDelegate.m:implementation:methods:applicationWillTerminate:save</key>
+							<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillTerminate:save</key>
 							<string>// Saves changes in the application&apos;s managed object context before the application terminates.
 [self saveContext];
 </string>
-							<key>AppDelegate.m:implementation:coreData</key>
+							<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:coreData</key>
 							<string>#pragma mark - Core Data stack
 
 @synthesize persistentContainer = _persistentContainer;
@@ -128,17 +128,17 @@
 						</dict>
 						<key>Nodes</key>
 						<array>
-							<string>AppDelegate.swift:imports:importFramework:CoreData</string>
-							<string>AppDelegate.swift:implementation:methods:applicationWillTerminate:save</string>
-							<string>AppDelegate.swift:implementation:coreData</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:imports:importFramework:CoreData</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillTerminate:save</string>
+							<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:coreData</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>AppDelegate.swift:implementation:methods:applicationWillTerminate:save</key>
+							<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillTerminate:save</key>
 							<string>// Saves changes in the application&apos;s managed object context before the application terminates.
 self.saveContext()
 </string>
-							<key>AppDelegate.swift:implementation:coreData</key>
+							<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:coreData</key>
 							<string>// MARK: - Core Data stack
 
 lazy var persistentContainer: NSPersistentContainer = {

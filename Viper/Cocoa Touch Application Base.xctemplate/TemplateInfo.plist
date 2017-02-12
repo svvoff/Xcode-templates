@@ -203,32 +203,50 @@
 					<array>
 						<string>Supporting Files/main.m:comments</string>
 						<string>Supporting Files/main.m:imports:importCocoa</string>
-						<string>Supporting Files/main.m:imports:importHeader:AppDelegate.h</string>
+						<string>Supporting Files/main.m:imports:importHeader:Classes/ApplicationLayer/AppDelegate/AppDelegate.h</string>
 						<string>Supporting Files/main.m:main:UIApplicationMain</string>
-						<string>AppDelegate.h:comments</string>
-						<string>AppDelegate.h:imports:importCocoa</string>
-						<string>AppDelegate.h:interface(AppDelegate : UIResponder &lt;UIApplicationDelegate&gt;)</string>
-						<string>AppDelegate.h:interface:window</string>
-						<string>AppDelegate.m:comments</string>
-						<string>AppDelegate.m:imports:importHeader:AppDelegate.h</string>
-						<string>AppDelegate.m:extension</string>
-						<string>AppDelegate.m:implementation:synthesize</string>
-						<string>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions(- (BOOL\)application:(UIApplication *\)application didFinishLaunchingWithOptions:(NSDictionary *\)launchOptions)</string>
-						<string>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
-						<string>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:return</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillResignActive(- (void\)applicationWillResignActive:(UIApplication *\)application)</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillResignActive:comments</string>
-						<string>AppDelegate.m:implementation:methods:applicationDidEnterBackground(- (void\)applicationDidEnterBackground:(UIApplication *\)application)</string>
-						<string>AppDelegate.m:implementation:methods:applicationDidEnterBackground:comments</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillEnterForeground(- (void\)applicationWillEnterForeground:(UIApplication *\)application)</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillEnterForeground:comments</string>
-						<string>AppDelegate.m:implementation:methods:applicationDidBecomeActive(- (void\)applicationDidBecomeActive:(UIApplication *\)application)</string>
-						<string>AppDelegate.m:implementation:methods:applicationDidBecomeActive:comments</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillTerminate(- (void\)applicationWillTerminate:(UIApplication *\)application)</string>
-						<string>AppDelegate.m:implementation:methods:applicationWillTerminate:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:imports:importCocoa</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:interface(AppDelegate : UIResponder &lt;UIApplicationDelegate&gt;)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:interface:window</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:imports:importHeader:AppDelegate.h</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:extension</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:synthesize</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions(- (BOOL\)application:(UIApplication *\)application didFinishLaunchingWithOptions:(NSDictionary *\)launchOptions)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:return</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillResignActive(- (void\)applicationWillResignActive:(UIApplication *\)application)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillResignActive:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationDidEnterBackground(- (void\)applicationDidEnterBackground:(UIApplication *\)application)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationDidEnterBackground:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillEnterForeground(- (void\)applicationWillEnterForeground:(UIApplication *\)application)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillEnterForeground:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationDidBecomeActive(- (void\)applicationDidBecomeActive:(UIApplication *\)application)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationDidBecomeActive:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillTerminate(- (void\)applicationWillTerminate:(UIApplication *\)application)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationWillTerminate:comments</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>ApplicationLayer</string>
+								<string>AppDelegate</string>
+							</array>
+						</dict>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>ApplicationLayer</string>
+								<string>AppDelegate</string>
+							</array>
+						</dict>
 						<key>Supporting Files/main.m:main</key>
 						<dict>
 							<key>Beginning</key>
@@ -240,15 +258,15 @@
 						</dict>
 						<key>Supporting Files/main.m:main:UIApplicationMain</key>
 						<string>@autoreleasepool {
-    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    return UIApplicationMain(argc, argv, nil, NSStringFromClass([Classes/ApplicationLayer/AppDelegate/AppDelegate class]));
 }
 </string>
-						<key>AppDelegate.h:interface:window</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.h:interface:window</key>
 						<string>@property (strong, nonatomic) UIWindow *window;
 </string>
-						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
 						<string>// Override point for customization after application launch.</string>
-						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
 						<string>return YES;</string>
 						<key>*:implementation:methods:viewDidLoad:super</key>
 						<string>[super viewDidLoad];
@@ -262,34 +280,43 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>AppDelegate.swift:comments</string>
-						<string>AppDelegate.swift:imports:importCocoa</string>
-						<string>AppDelegate.swift:UIApplicationMain</string>
-						<string>AppDelegate.swift:implementation(AppDelegate: UIResponder, UIApplicationDelegate)</string>
-						<string>AppDelegate.swift:implementation:properties:window</string>
-						<string>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions(func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?\) -&gt; Bool)</string>
-						<string>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
-						<string>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillResignActive(func applicationWillResignActive(_ application: UIApplication\))</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillResignActive:comments</string>
-						<string>AppDelegate.swift:implementation:methods:applicationDidEnterBackground(func applicationDidEnterBackground(_ application: UIApplication\))</string>
-						<string>AppDelegate.swift:implementation:methods:applicationDidEnterBackground:comments</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillEnterForeground(func applicationWillEnterForeground(_ application: UIApplication\))</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillEnterForeground:comments</string>
-						<string>AppDelegate.swift:implementation:methods:applicationDidBecomeActive(func applicationDidBecomeActive(_ application: UIApplication\))</string>
-						<string>AppDelegate.swift:implementation:methods:applicationDidBecomeActive:comments</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillTerminate(func applicationWillTerminate(_ application: UIApplication\))</string>
-						<string>AppDelegate.swift:implementation:methods:applicationWillTerminate:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:imports:importCocoa</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:UIApplicationMain</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation(AppDelegate: UIResponder, UIApplicationDelegate)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:properties:window</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions(func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?\) -&gt; Bool)</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillResignActive(func applicationWillResignActive(_ application: UIApplication\))</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillResignActive:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationDidEnterBackground(func applicationDidEnterBackground(_ application: UIApplication\))</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationDidEnterBackground:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillEnterForeground(func applicationWillEnterForeground(_ application: UIApplication\))</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillEnterForeground:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationDidBecomeActive(func applicationDidBecomeActive(_ application: UIApplication\))</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationDidBecomeActive:comments</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillTerminate(func applicationWillTerminate(_ application: UIApplication\))</string>
+						<string>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationWillTerminate:comments</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>AppDelegate.swift:UIApplicationMain</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>ApplicationLayer</string>
+								<string>AppDelegate</string>
+							</array>
+						</dict>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:UIApplicationMain</key>
 						<string>@UIApplicationMain</string>
-						<key>AppDelegate.swift:implementation:properties:window</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:properties:window</key>
 						<string>var window: UIWindow?</string>
-						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
 						<string>// Override point for customization after application launch.</string>
-						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
+						<key>Classes/ApplicationLayer/AppDelegate/AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
 						<string>return true</string>
 						<key>*:implementation:methods:viewDidLoad:super</key>
 						<string>super.viewDidLoad()
