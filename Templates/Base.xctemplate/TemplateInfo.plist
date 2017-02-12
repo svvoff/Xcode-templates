@@ -5,13 +5,13 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.viper.base</string>
+	<string>ru.svvoff.convinient.base</string>
 	<key>Ancestors</key>
 	<array>
-		<string>ru.svvoff.viper.base_DefinitionsLanguage</string>
-		<string>ru.svvoff.viper.base_DefinitionsInfoPlist</string>
-		<string>ru.svvoff.viper.base_ProjectSettings</string>
-		<string>ru.svvoff.viper.base_Options</string>
+		<string>ru.svvoff.convinient.base_DefinitionsLanguage</string>
+		<string>ru.svvoff.convinient.base_DefinitionsInfoPlist</string>
+		<string>ru.svvoff.convinient.base_ProjectSettings</string>
+		<string>ru.svvoff.convinient.base_Options</string>
 	</array>
 </dict>
 </plist>

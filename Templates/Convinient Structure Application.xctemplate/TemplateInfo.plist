@@ -5,12 +5,12 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.viper.application</string>
+	<string>ru.svvoff.convinient.application</string>
 	<key>Ancestors</key>
 	<array>
-		<string>ru.svvoff.viper.convinientStructureBase</string>
-		<string>ru.svvoff.viper.storyboardApplication</string>
-		<string>ru.svvoff.viper.coreDataCocoaTouchApplication</string>
+		<string>ru.svvoff.convinient.convinientStructureBase</string>
+		<string>ru.svvoff.convinient.storyboardApplication</string>
+		<string>ru.svvoff.convinient.coreDataCocoaTouchApplication</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
