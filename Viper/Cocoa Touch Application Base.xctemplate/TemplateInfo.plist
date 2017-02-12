@@ -314,20 +314,6 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Resources/Strings</key>
-		<dict>
-			<key>Path</key>
-			<string>empty</string>
-			<key>Group</key>
-			<string>Resources</string>
-		</dict>
-		<key>Resources/Plists</key>
-		<dict>
-			<key>Path</key>
-			<string>empty</string>
-			<key>Group</key>
-			<string>Resources</string>
-		</dict>
 		<key>Supporting Files/Info.plist:iPhone</key>
 		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;

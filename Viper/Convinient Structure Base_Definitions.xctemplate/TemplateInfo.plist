@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>ru.svvoff.viper.convinientStructureBase_Definitions</string>
+	<key>Definitions</key>
+	<dict>
+		<key>Resources/Plists</key>
+		<dict>
+			<key>Path</key>
+			<string>empty</string>
+			<key>Group</key>
+			<string>Resources</string>
+		</dict>
+		<key>Resources/Strings</key>
+		<dict>
+			<key>Path</key>
+			<string>empty</string>
+			<key>Group</key>
+			<string>Resources</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
