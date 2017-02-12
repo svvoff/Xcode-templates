@@ -308,7 +308,7 @@
 		<string>Supporting Files/Info.plist:UIRequiredDeviceCapabilities:base</string>
 		<string>Supporting Files/Info.plist:LaunchScreen</string>
 		<string>Resources/Images/Assets.xcassets</string>
-		<string>Base.lproj/LaunchScreen.storyboard</string>
+		<string>Classes/PresentationLayer/LaunchScreen.storyboard</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -344,8 +344,13 @@
 		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
 &lt;string&gt;LaunchScreen&lt;/string&gt;
 </string>
-		<key>Base.lproj/LaunchScreen.storyboard</key>
+		<key>Classes/PresentationLayer/LaunchScreen.storyboard</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>PresentationLayer</string>
+			</array>
 			<key>Path</key>
 			<string>LaunchScreen.storyboard</string>
 			<key>SortOrder</key>
