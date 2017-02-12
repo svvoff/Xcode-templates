@@ -32,12 +32,18 @@
 					<dict>
 						<key>Nodes</key>
 						<array>
-							<string>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</string>
+							<string>Classes/Models/CoreDataModel/___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</key>
+							<key>Classes/Models/CoreDataModel/___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</key>
 							<dict>
+								<key>Group</key>
+								<array>
+									<string>Classes</string>
+									<string>Models</string>
+									<string>CoreDataModel</string>
+								</array>
 								<key>Path</key>
 								<string>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</string>
 								<key>SortOrder</key>
