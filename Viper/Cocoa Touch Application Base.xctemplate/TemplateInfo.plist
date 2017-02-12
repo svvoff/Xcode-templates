@@ -309,8 +309,6 @@
 		<string>Supporting Files/Info.plist:LaunchScreen</string>
 		<string>Resources/Images/Assets.xcassets</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
-		<string>Resources/Plists</string>
-		<string>Resources/Strings</string>
 	</array>
 	<key>Definitions</key>
 	<dict>

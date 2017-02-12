@@ -59,8 +59,13 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Base.lproj/Main.storyboard</key>
+		<key>Classes/PresentationLayer/Main.storyboard</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>PresentationLayer</string>
+			</array>
 			<key>Path</key>
 			<string>Main.storyboard</string>
 			<key>SortOrder</key>

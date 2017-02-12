@@ -13,7 +13,7 @@
 	<key>Nodes</key>
 	<array>
 		<string>Supporting Files/Info.plist:UIMainStoryboardFile</string>
-		<string>Base.lproj/Main.storyboard</string>
+		<string>Classes/PresentationLayer/Main.storyboard</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
