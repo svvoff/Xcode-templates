@@ -9,6 +9,8 @@
 #### Objective-C project structure:
 ![Swift project example](./images/objcExample.png)
 
+### Installation:
+Put template to `~/Library/Developer/Xcode/Templates`
 
 ### TO-DO:
 
