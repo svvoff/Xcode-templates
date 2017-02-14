@@ -1,6 +1,6 @@
 # Xcode template
 
-### Template with convinient structure which was adopted from [rambler-it-ios projbect](https://github.com/rambler-digital-solutions/rambler-it-ios)
+### Template with convinient structure which was adopted from [rambler-it-ios project](https://github.com/rambler-digital-solutions/rambler-it-ios)
 
 <div style="float: left; width: 100%; display: flex; flex-direction: column;">
     <div style="width: 100%; display: flex;">
