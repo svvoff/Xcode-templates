@@ -10,12 +10,13 @@
 ![Swift project example](./images/objcExample.png)
 
 ### Installation:
-Put template to `~/Library/Developer/Xcode/Templates`
+1. Create empty folder in `Templates` folder
+2. Put template to `~/Library/Developer/Xcode/Templates`
 
 ### TO-DO:
 
-* Add structure for unit tests
-* Add structure for UI tests
-* Add option in template adding `Podfile` file
-* Add option in template adding `Cartfile` file
+* Add configuration of `Podfile` file
+* Add configuration of `Cartfile` file
+* Put test file into correct folder
+* Put ui test file into correct folder
 * Add option in template adding `Rambafile` file
