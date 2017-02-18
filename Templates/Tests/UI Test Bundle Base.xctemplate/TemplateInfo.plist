@@ -44,10 +44,40 @@
 	</array>
 	<key>Nodes</key>
 	<array>
+		<string>PresentationLayerTests/ModulesTests</string>
+		<string>BusinessLogicTests</string>
+		<string>HelpersTests</string>
+		<string>CoreLayerTests</string>
+		<string>ApplicationLayerTests</string>
 		<string>Supporting Files/Info.plist:PackageType</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>ApplicationLayerTests</key>
+		<dict>
+			<key>Path</key>
+			<string>../../__empty</string>
+		</dict>
+		<key>CoreLayerTests</key>
+		<dict>
+			<key>Path</key>
+			<string>../../__empty</string>
+		</dict>
+		<key>PresentationLayerTests/ModulesTests</key>
+		<dict>
+			<key>Path</key>
+			<string>../../__empty</string>
+		</dict>
+		<key>BusinessLogicTests</key>
+		<dict>
+			<key>Path</key>
+			<string>../../__empty</string>
+		</dict>
+		<key>HelpersTests</key>
+		<dict>
+			<key>Path</key>
+			<string>../../__empty</string>
+		</dict>
 		<key>Supporting Files/Info.plist:PackageType</key>
 		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
 &lt;string&gt;BNDL&lt;/string&gt;
