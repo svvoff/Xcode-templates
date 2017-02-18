@@ -10,7 +10,7 @@
 ![Swift project example](./images/objcExample.png)
 
 ### Installation:
-1. Create empty folder in `Templates` folder
+1. Create empty folder `__empty` in `Templates` folder
 2. Put template to `~/Library/Developer/Xcode/Templates`
 
 ### TO-DO:
