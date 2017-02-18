@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convinient.convinientStructureBase_Definitions</string>
+	<string>ru.svvoff.convinient.convinientBase_Definitions</string>
 	<key>Nodes</key>
 	<array>
 		<string>Classes/ApplicationLayer</string>
