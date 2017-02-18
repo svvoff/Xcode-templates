@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convinient.base_ProjectSettings</string>
+	<string>ru.svvoff.convenient.base_ProjectSettings</string>
 	<key>Project</key>
 	<dict>
 		<key>SharedSettings</key>

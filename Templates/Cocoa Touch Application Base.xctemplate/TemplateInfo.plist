@@ -5,10 +5,10 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convinient.cocoaTouchApplicationBase</string>
+	<string>ru.svvoff.convenient.cocoaTouchApplicationBase</string>
 	<key>Ancestors</key>
 	<array>
-		<string>ru.svvoff.convinient.applicationBase</string>
+		<string>ru.svvoff.convenient.applicationBase</string>
 		<string>com.apple.dt.unit.iosBase</string>
 		<string>com.apple.dt.unit.languageChoice</string>
 	</array>

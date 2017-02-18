@@ -5,14 +5,14 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convinient.application</string>
+	<string>ru.svvoff.convenient.application</string>
 	<key>Ancestors</key>
 	<array>
-		<string>ru.svvoff.convinient.convinientStructure_DefinitionLanguage</string>
-		<string>ru.svvoff.convinient.convinientBase_Definitions</string>
-		<string>ru.svvoff.convinient.storyboardApplication</string>
-		<string>ru.svvoff.convinient.coreDataCocoaTouchApplication</string>
-		<string>ru.svvoff.convinient.convinientBase_Options</string>
+		<string>ru.svvoff.convenient.convinientStructure_DefinitionLanguage</string>
+		<string>ru.svvoff.convenient.convinientBase_Definitions</string>
+		<string>ru.svvoff.convenient.storyboardApplication</string>
+		<string>ru.svvoff.convenient.coreDataCocoaTouchApplication</string>
+		<string>ru.svvoff.convenient.convinientBase_Options</string>
 	</array>
 	<key>Concrete</key>
 	<true/>

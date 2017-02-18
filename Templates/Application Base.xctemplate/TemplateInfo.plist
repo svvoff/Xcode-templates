@@ -5,10 +5,10 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convinient.applicationBase</string>
+	<string>ru.svvoff.convenient.applicationBase</string>
 	<key>Ancestors</key>
 	<array>
-		<string>ru.svvoff.convinient.bundleBase</string>
+		<string>ru.svvoff.convenient.bundleBase</string>
 	</array>
 	<key>Targets</key>
 	<array>
