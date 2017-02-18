@@ -155,7 +155,7 @@
 					<array>
 						<dict>
 							<key>Identifier</key>
-							<string>com.apple.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
+							<string>ru.svvoff.convenient.cocoaTouchApplicationUnitTestBundle</string>
 							<key>Name</key>
 							<string>___PACKAGENAME___Tests</string>
 						</dict>
@@ -184,7 +184,7 @@
 					<array>
 						<dict>
 							<key>Identifier</key>
-							<string>com.apple.dt.unit.cocoaTouchApplicationUITestBundle</string>
+							<string>ru.svvoff.convenient.cocoaTouchApplicationUITestBundle</string>
 							<key>Name</key>
 							<string>___PACKAGENAME___UITests</string>
 						</dict>

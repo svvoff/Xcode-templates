@@ -24,70 +24,70 @@
 		<key>Classes/PresentationLayer</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/Models</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/Helpers</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/Extensions</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/CoreLayer</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/Constants</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/BussinessLogicLayer</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Classes/ApplicationLayer</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Classes</string>
 		</dict>
 		<key>Resources/Plists</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Resources</string>
 		</dict>
 		<key>Resources/Strings</key>
 		<dict>
 			<key>Path</key>
-			<string>empty</string>
+			<string>../__empty</string>
 			<key>Group</key>
 			<string>Resources</string>
 		</dict>
