@@ -29,7 +29,7 @@
 				<dict>
 					<key>Definitions</key>
 					<dict>
-						<key>Classes/PresentationLayer/UserStories/ViewController/ViewController.m</key>
+						<key>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m</key>
 						<dict>
 							<key>Group</key>
 							<array>
@@ -37,38 +37,42 @@
 								<string>PresentationLayer</string>
 								<string>UserStories</string>
 								<string>ViewController</string>
+								<string>Modules</string>
+								<string>ViewController</string>
 							</array>
 						</dict>
-						<key>Classes/PresentationLayer/UserStories/ViewController/ViewController.h</key>
+						<key>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.h</key>
 						<dict>
 							<key>Group</key>
 							<array>
 								<string>Classes</string>
 								<string>PresentationLayer</string>
 								<string>UserStories</string>
+								<string>ViewController</string>
+								<string>Modules</string>
 								<string>ViewController</string>
 							</array>
 						</dict>
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.h:comments</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.h:imports:importCocoa</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:comments</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:imports:importHeader:ViewController.h</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:extension</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:implementation:methods:viewDidLoad:super</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.h:comments</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.h:imports:importCocoa</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:comments</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:imports:importHeader:ViewController.h</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:extension</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
 					</array>
 				</dict>
 				<key>Swift</key>
 				<dict>
 					<key>Definitions</key>
 					<dict>
-						<key>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift</key>
+						<key>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift</key>
 						<dict>
 							<key>Group</key>
 							<array>
@@ -76,18 +80,20 @@
 								<string>PresentationLayer</string>
 								<string>UserStories</string>
 								<string>ViewController</string>
+								<string>Modules</string>
+								<string>ViewController</string>
 							</array>
 						</dict>
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:comments</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:imports:importCocoa</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:implementation:methods:viewDidLoad:super</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-						<string>Classes/PresentationLayer/UserStories/ViewController/ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:comments</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:imports:importCocoa</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:implementation:methods:viewDidLoad:super</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>Classes/PresentationLayer/UserStories/ViewController/Modules/ViewControllerViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
 					</array>
 				</dict>
 			</dict>
