@@ -1,13 +1,20 @@
-# Xcode template
+# Xcode project template
 
-### Template with convinient structure which was borrowed from [rambler-it-ios project](https://github.com/rambler-digital-solutions/rambler-it-ios)
+### Project template with convinient structure which was borrowed from [rambler-it-ios project](https://github.com/rambler-digital-solutions/rambler-it-ios)
+
+#### Project settings window:
+![Project settings window](./images/settingsExample.png)
 
 
 #### Swift project structure:
 ![Swift project example](./images/swiftExample.png)
+Tests structure:
+![Swift tests structure example](./images/swiftTestsExample.png)
 
 #### Objective-C project structure:
-![Swift project example](./images/objcExample.png)
+![Objc project example](./images/objcExample.png)
+Tests structure:
+![Objc tests structure example](./images/objcTestsExample.png)
 
 ### Installation:
 1. Create empty folder `__empty` in `Templates` folder
@@ -15,7 +22,6 @@
 
 ### TO-DO:
 
-* Add configuration of `Cartfile` file
 * Put test file into correct folder
 * Put ui test file into correct folder
 * Add option in template adding `Rambafile` file
