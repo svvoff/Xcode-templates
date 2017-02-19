@@ -15,7 +15,6 @@
 
 ### TO-DO:
 
-* Add configuration of `Podfile` file
 * Add configuration of `Cartfile` file
 * Put test file into correct folder
 * Put ui test file into correct folder
