@@ -8,6 +8,29 @@
 	<string>ru.svvoff.convenient.convinientBase_Options</string>
 	<key>Definitions</key>
 	<dict>
+		<key>*:ramba</key>
+		<dict>
+			<key>Beginning</key>
+			<string></string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:headers</key>
+		<string>### Headers settings</string>
+		<key>*:ramba:company</key>
+		<string>company: ___ORGANIZATIONNAME___</string>
+		<key>*:ramba:project</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+### Xcode project settings</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:project:name</key>
+		<string>project_name: ___PROJECTNAME___</string>
+		<key>*:ramba:project:path</key>
+		<string>xcodeproj_path: ___PROJECTNAME___.xcodeproj</string>
 		<key>*:pod</key>
 		<dict>
 			<key>Beginning</key>
@@ -212,7 +235,10 @@ use_frameworks!</string>
 						</array>
 						<key>Nodes</key>
 						<array>
-							<string>../Rambafile</string>
+							<string>../Rambafile:ramba:headers</string>
+							<string>../Rambafile:ramba:company</string>
+							<string>../Rambafile:ramba:project:name</string>
+							<string>../Rambafile:ramba:project:path</string>
 						</array>
 					</dict>
 				</array>
