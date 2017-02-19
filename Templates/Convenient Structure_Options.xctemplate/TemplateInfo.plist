@@ -6,6 +6,49 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
 	<string>ru.svvoff.convenient.convinientBase_Options</string>
+	<key>Definitions</key>
+	<dict>
+		<key>*:pod</key>
+		<dict>
+			<key>Beginning</key>
+			<string></string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:pod:target</key>
+		<dict>
+			<key>Indent</key>
+			<integer>1</integer>
+			<key>Beginning</key>
+			<string>target &apos;___PACKAGENAMEASIDENTIFIER___&apos; do</string>
+			<key>End</key>
+			<string>
+end
+</string>
+		</dict>
+		<key>*:pod:target:child:*</key>
+		<dict>
+			<key>Beginning</key>
+			<string> target &apos;___*___&apos; do</string>
+			<key>End</key>
+			<string> end</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:pod:target:comments</key>
+		<dict>
+			<key>Beginning</key>
+			<string># Uncomment the next line if you&apos;re using Swift or would like to use dynamic frameworks
+# use_frameworks!
+
+# Pods for ___PACKAGENAMEASIDENTIFIER___</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:pod:comments</key>
+		<string># Uncomment the next line to define a global platform for your project
+# platform :ios, &apos;9.0&apos; </string>
+	</dict>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -26,6 +69,25 @@
 				<key>true</key>
 				<array>
 					<dict>
+						<key>Options</key>
+						<array>
+							<dict>
+								<key>Identifier</key>
+								<string>hasUnitTests</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>Azazazaz</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
 						<key>Nodes</key>
 						<array>
 							<string>../Cartfile</string>
@@ -54,7 +116,8 @@
 					<dict>
 						<key>Nodes</key>
 						<array>
-							<string>../Podfile</string>
+							<string>../Podfile:pod:comments</string>
+							<string>../Podfile:pod:target:comments</string>
 						</array>
 					</dict>
 				</array>
