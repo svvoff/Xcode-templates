@@ -12,7 +12,8 @@
 		<string>ru.svvoff.convenient.convinientStructure_DefinitionLanguage</string>
 		<string>ru.svvoff.convenient.storyboardApplication</string>
 		<string>ru.svvoff.convenient.coreDataCocoaTouchApplication</string>
-		<string>ru.svvoff.convenient.convinientBase_Options</string>
+		<string>ru.svvoff.convenient.convinient_Options</string>
+		<string>ru.svvoff.convenient.convinient_OptionsGeneramba</string>
 	</array>
 	<key>Concrete</key>
 	<true/>

@@ -5,32 +5,9 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>ru.svvoff.convenient.convinientBase_Options</string>
+	<string>ru.svvoff.convenient.convinient_Options</string>
 	<key>Definitions</key>
 	<dict>
-		<key>*:ramba</key>
-		<dict>
-			<key>Beginning</key>
-			<string></string>
-			<key>End</key>
-			<string></string>
-		</dict>
-		<key>*:ramba:headers</key>
-		<string>### Headers settings</string>
-		<key>*:ramba:company</key>
-		<string>company: ___ORGANIZATIONNAME___</string>
-		<key>*:ramba:project</key>
-		<dict>
-			<key>Beginning</key>
-			<string>
-### Xcode project settings</string>
-			<key>End</key>
-			<string></string>
-		</dict>
-		<key>*:ramba:project:name</key>
-		<string>project_name: ___PROJECTNAME___</string>
-		<key>*:ramba:project:path</key>
-		<string>xcodeproj_path: ___PROJECTNAME___.xcodeproj</string>
 		<key>*:pod</key>
 		<dict>
 			<key>Beginning</key>
@@ -193,52 +170,6 @@ use_frameworks!</string>
 						<array>
 							<string>../Podfile:pod:comments</string>
 							<string>../Podfile:pod:target:frameworks</string>
-						</array>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>generamba</string>
-			<key>Name</key>
-			<string>Use Generamba</string>
-			<key>Description</key>
-			<string>Whether the application should create Rambafile</string>
-			<key>SortOrder</key>
-			<integer>3</integer>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key>
-			<string>false</string>
-			<key>Units</key>
-			<dict>
-				<key>true</key>
-				<array>
-					<dict>
-						<key>Options</key>
-						<array>
-							<dict>
-								<key>Identifier</key>
-								<string>hasUnitTests</string>
-								<key>Units</key>
-								<dict>
-									<key>true</key>
-									<array>
-										<dict>
-											<key>Nodes</key>
-											<array/>
-										</dict>
-									</array>
-								</dict>
-							</dict>
-						</array>
-						<key>Nodes</key>
-						<array>
-							<string>../Rambafile:ramba:headers</string>
-							<string>../Rambafile:ramba:company</string>
-							<string>../Rambafile:ramba:project:name</string>
-							<string>../Rambafile:ramba:project:path</string>
 						</array>
 					</dict>
 				</array>

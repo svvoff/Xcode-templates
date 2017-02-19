@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>ru.svvoff.convenient.convinient_OptionsGeneramba</string>
+	<key>Definitions</key>
+	<dict>
+		<key>*:ramba</key>
+		<dict>
+			<key>Beginning</key>
+			<string></string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:headers</key>
+		<string>### Headers settings</string>
+		<key>*:ramba:company</key>
+		<string>company: ___ORGANIZATIONNAME___</string>
+		<key>*:ramba:project</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+### Xcode project settings</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:project:name</key>
+		<string>project_name: ___PROJECTNAME___</string>
+		<key>*:ramba:project:path</key>
+		<string>xcodeproj_path: ___PROJECTNAME___.xcodeproj</string>
+		<key>*:ramba:codegen</key>
+		<dict>
+			<key>Beginning</key>
+			<string> ### Code generation settings section</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:codegen:target</key>
+		<dict>
+			<key>Beginning</key>
+			<string># The main project target name</string>
+			<key>End</key>
+			<string>project_target: ___PROJECTNAME___</string>
+		</dict>
+		<key>*:ramba:codegen:file_path</key>
+		<dict>
+			<key>Beginning</key>
+			<string> # The file path for new modules</string>
+			<key>End</key>
+			<string>project_file_path: ___PROJECTNAME___/Classes/PresentationLayer/UserStories/</string>
+		</dict>
+		<key>*:ramba:codegen:groups</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+# The Xcode group path to new modules</string>
+			<key>End</key>
+			<string>project_group_path: ___PROJECTNAME___/Classes/PresentationLayer/UserStories/</string>
+		</dict>
+		<key>*:ramba:testsgen</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+### Tests generation settings section</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:testsgen:target</key>
+		<dict>
+			<key>Beginning</key>
+			<string># The tests target name</string>
+			<key>End</key>
+			<string>test_target: ___PROJECTNAME___Tests</string>
+		</dict>
+		<key>*:ramba:testsgen:file_path</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+# The file path for new tests</string>
+			<key>End</key>
+			<string>test_file_path: ___PROJECTNAME___Tests/PresentationLayerTests/</string>
+		</dict>
+		<key>*:ramba:testsgen:groups</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+# The Xcode group path to new tests</string>
+			<key>End</key>
+			<string>test_group_path: ___PROJECTNAME___Tests/PresentationLayerTests/</string>
+		</dict>
+		<key>*:ramba:dependencies</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+### Dependencies settings section</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:dependencies:pods</key>
+		<string>podfile_path: Podfile</string>
+		<key>*:ramba:dependencies:carthage</key>
+		<string>cartfile_path: Cartfile</string>
+		<key>*:ramba:templates</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+### Templates templates:</string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:ramba:templates:rviper_controller</key>
+		<string>- {name: rviper_controller}</string>
+		<key>*:ramba:templates:mvvm_controller</key>
+		<string>- {name: mvvm_controller}</string>
+		<key>*:ramba:templates:swifty_viper</key>
+		<string>- {name: swifty_viper}</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>generamba</string>
+			<key>Name</key>
+			<string>Use Generamba</string>
+			<key>Description</key>
+			<string>Whether the application should create Rambafile</string>
+			<key>SortOrder</key>
+			<integer>3</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Options</key>
+						<array>
+							<dict>
+								<key>Identifier</key>
+								<string>hasUnitTests</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>../Rambafile:ramba:testsgen:target</string>
+												<string>../Rambafile:ramba:testsgen:file_path</string>
+												<string>../Rambafile:ramba:testsgen:groups</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+							<dict>
+								<key>Identifier</key>
+								<string>carthage</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>../Rambafile:ramba:dependencies:carthage</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+							<dict>
+								<key>Identifier</key>
+								<string>cocoaPods</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>../Rambafile:ramba:dependencies:pods</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+							<dict>
+								<key>Identifier</key>
+								<string>languageChoice</string>
+								<key>Units</key>
+								<dict>
+									<key>Objective-C</key>
+									<dict>
+										<key>Nodes</key>
+										<array>
+											<string>../Rambafile:ramba:templates:rviper_controller</string>
+										</array>
+									</dict>
+									<key>Swift</key>
+									<dict>
+										<key>Nodes</key>
+										<array>
+											<string>../Rambafile:ramba:templates:swifty_viper</string>
+										</array>
+									</dict>
+								</dict>
+							</dict>
+						</array>
+						<key>Nodes</key>
+						<array>
+							<string>../Rambafile:ramba:headers</string>
+							<string>../Rambafile:ramba:company</string>
+							<string>../Rambafile:ramba:project:name</string>
+							<string>../Rambafile:ramba:project:path</string>
+							<string>../Rambafile:ramba:codegen:target</string>
+							<string>../Rambafile:ramba:codegen:file_path</string>
+							<string>../Rambafile:ramba:codegen:groups</string>
+							<string>../Rambafile:ramba:testsgen</string>
+							<string>../Rambafile:ramba:dependencies</string>
+							<string>../Rambafile:ramba:templates</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
