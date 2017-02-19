@@ -8,12 +8,16 @@
 
 #### Swift project structure:
 ![Swift project example](./images/swiftExample.png)
+
 Tests structure:
+
 ![Swift tests structure example](./images/swiftTestsExample.png)
 
 #### Objective-C project structure:
 ![Objc project example](./images/objcExample.png)
+
 Tests structure:
+
 ![Objc tests structure example](./images/objcTestsExample.png)
 
 ### Installation:
