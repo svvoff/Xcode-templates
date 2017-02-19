@@ -26,6 +26,6 @@ Tests structure:
 
 ### TO-DO:
 
+* Fix path for modules in Unit tests and UI tests folders
 * Put test file into correct folder
 * Put ui test file into correct folder
-* Add option in template adding `Rambafile` file
