@@ -35,15 +35,30 @@ end
 			<key>Indent</key>
 			<integer>1</integer>
 		</dict>
-		<key>*:pod:target:comments</key>
+		<key>*:pod:target:frameworks</key>
+		<dict>
+			<key>Beginning</key>
+			<string></string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:pod:target:frameworks:objc</key>
 		<dict>
 			<key>Beginning</key>
 			<string># Uncomment the next line if you&apos;re using Swift or would like to use dynamic frameworks
-# use_frameworks!
-
-# Pods for ___PACKAGENAMEASIDENTIFIER___</string>
+# use_frameworks!</string>
 			<key>End</key>
-			<string></string>
+			<string>
+# Pods for ___PACKAGENAMEASIDENTIFIER___</string>
+		</dict>
+		<key>*:pod:target:frameworks:swift</key>
+		<dict>
+			<key>Beginning</key>
+			<string># Comment the next line if you&apos;re not using Swift and don&apos;t want to use dynamic frameworks
+use_frameworks!</string>
+			<key>End</key>
+			<string>
+# Pods for ___PACKAGENAMEASIDENTIFIER___</string>
 		</dict>
 		<key>*:pod:comments</key>
 		<string># Uncomment the next line to define a global platform for your project
@@ -99,6 +114,27 @@ end
 						<array>
 							<dict>
 								<key>Identifier</key>
+								<string>languageChoice</string>
+								<key>Units</key>
+								<dict>
+									<key>Objective-C</key>
+									<dict>
+										<key>Nodes</key>
+										<array>
+											<string>../Podfile:pod:target:frameworks:objc</string>
+										</array>
+									</dict>
+									<key>Swift</key>
+									<dict>
+										<key>Nodes</key>
+										<array>
+											<string>../Podfile:pod:target:frameworks:swift</string>
+										</array>
+									</dict>
+								</dict>
+							</dict>
+							<dict>
+								<key>Identifier</key>
 								<string>hasUITests</string>
 								<key>Units</key>
 								<dict>
@@ -133,7 +169,7 @@ end
 						<key>Nodes</key>
 						<array>
 							<string>../Podfile:pod:comments</string>
-							<string>../Podfile:pod:target:comments</string>
+							<string>../Podfile:pod:target:frameworks</string>
 						</array>
 					</dict>
 				</array>
