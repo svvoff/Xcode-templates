@@ -29,7 +29,7 @@ end
 		<key>*:pod:target:child:*</key>
 		<dict>
 			<key>Beginning</key>
-			<string> target &apos;___*___&apos; do</string>
+			<string> target &apos;___*___&apos; do   inherit! :search_paths</string>
 			<key>End</key>
 			<string> end</string>
 			<key>Indent</key>
@@ -69,25 +69,6 @@ end
 				<key>true</key>
 				<array>
 					<dict>
-						<key>Options</key>
-						<array>
-							<dict>
-								<key>Identifier</key>
-								<string>hasUnitTests</string>
-								<key>Units</key>
-								<dict>
-									<key>true</key>
-									<array>
-										<dict>
-											<key>Nodes</key>
-											<array>
-												<string>Azazazaz</string>
-											</array>
-										</dict>
-									</array>
-								</dict>
-							</dict>
-						</array>
 						<key>Nodes</key>
 						<array>
 							<string>../Cartfile</string>
@@ -114,6 +95,41 @@ end
 				<key>true</key>
 				<array>
 					<dict>
+						<key>Options</key>
+						<array>
+							<dict>
+								<key>Identifier</key>
+								<string>hasUITests</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>../Podfile:pod:target:child:___PACKAGENAME___UITests</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+							<dict>
+								<key>Identifier</key>
+								<string>hasUnitTests</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array>
+												<string>../Podfile:pod:target:child:___PACKAGENAME___Tests</string>
+											</array>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
 						<key>Nodes</key>
 						<array>
 							<string>../Podfile:pod:comments</string>
