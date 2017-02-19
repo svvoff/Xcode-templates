@@ -175,6 +175,49 @@ use_frameworks!</string>
 				</array>
 			</dict>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>generamba</string>
+			<key>Name</key>
+			<string>Use Generamba</string>
+			<key>Description</key>
+			<string>Whether the application should create Rambafile</string>
+			<key>SortOrder</key>
+			<integer>3</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Options</key>
+						<array>
+							<dict>
+								<key>Identifier</key>
+								<string>hasUnitTests</string>
+								<key>Units</key>
+								<dict>
+									<key>true</key>
+									<array>
+										<dict>
+											<key>Nodes</key>
+											<array/>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
+						<key>Nodes</key>
+						<array>
+							<string>../Rambafile</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
