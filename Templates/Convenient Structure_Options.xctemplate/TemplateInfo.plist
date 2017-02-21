@@ -26,6 +26,15 @@
 end
 </string>
 		</dict>
+		<key>*:pod:target:pods</key>
+		<dict>
+			<key>Beginning</key>
+			<string> </string>
+			<key>End</key>
+			<string></string>
+		</dict>
+		<key>*:pod:target:pods:typhoon</key>
+		<string>pod &apos;Typhoon&apos;, &apos;~&gt; 4.0&apos;</string>
 		<key>*:pod:target:child:*</key>
 		<dict>
 			<key>Beginning</key>
@@ -170,6 +179,7 @@ use_frameworks!</string>
 						<array>
 							<string>../Podfile:pod:comments</string>
 							<string>../Podfile:pod:target:frameworks</string>
+							<string>../Podfile:pod:target:pods</string>
 						</array>
 					</dict>
 				</array>

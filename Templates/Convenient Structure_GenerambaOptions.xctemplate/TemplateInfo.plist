@@ -197,6 +197,25 @@
 								<dict>
 									<key>Objective-C</key>
 									<dict>
+										<key>Options</key>
+										<array>
+											<dict>
+												<key>Identifier</key>
+												<string>cocoaPods</string>
+												<key>Units</key>
+												<dict>
+													<key>true</key>
+													<array>
+														<dict>
+															<key>Nodes</key>
+															<array>
+																<string>../Podfile:pod:target:pods:typhoon</string>
+															</array>
+														</dict>
+													</array>
+												</dict>
+											</dict>
+										</array>
 										<key>Nodes</key>
 										<array>
 											<string>../Rambafile:ramba:templates:rviper_controller</string>

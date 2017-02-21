@@ -65,6 +65,8 @@
 		</dict>
 		<key>PresentationLayerTests/ModulesTests</key>
 		<dict>
+			<key>Group</key>
+			<string>PresentationLayerTests</string>
 			<key>Path</key>
 			<string>../../__empty</string>
 		</dict>
