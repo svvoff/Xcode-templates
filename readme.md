@@ -7,10 +7,17 @@
 
 
 #### Swift project structure:
-![Swift project example](./images/swiftExample.png)
-Tests structure:
+<div style="display: -webkit-flex; display: flex; flex-flow: row wrap;">
+    <div>
+        <img src='./images/swiftExample.png'/>
+    </div>
+    <div>
+        <img src='./images/swiftTestsExample.png'/>
+    </div>
+</div>
 
-![Swift tests structure example](./images/swiftTestsExample.png)
+<!--![Swift project example](./images/swiftExample.png)-->
+<!--![Swift tests structure example](./images/swiftTestsExample.png)-->
 
 #### Objective-C project structure:
 ![Objc project example](./images/objcExample.png)
