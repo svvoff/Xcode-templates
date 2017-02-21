@@ -17,5 +17,6 @@
 
 ### TO-DO:
 
+* Describe template
 * Put test file into correct folder
 * Put ui test file into correct folder
